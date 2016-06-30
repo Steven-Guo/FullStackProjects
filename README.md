@@ -2,7 +2,7 @@
   <content>
 # Movie Trailer Website
 
-A simple python practice project. 
+A simple python practice project. Using Bootstrap as HTML template. Customized font from Google fonts. 
 
 ## Installation
 
