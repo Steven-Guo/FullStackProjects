@@ -30,5 +30,4 @@ Udacity
 
 MIT License
 </content>
-  <tabTrigger>readme</tabTrigger>
 </snippet>
