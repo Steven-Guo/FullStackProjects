@@ -1,7 +1,7 @@
 import fresh_tomatoes
 import media
 
-#instantiate a movie instance
+#instantiate movie instances
 warcraft = media.Movie("Warcraft", "150min",
                        "The film portrays the origin story of the initial encounters"
                        " between the humans and the orcs, with an emphasis upon both the Alliance's"
@@ -16,8 +16,8 @@ dory = media.Movie("Finding Dory", "97min",
                    "http://ia.media-imdb.com/images/M/MV5BNzg4MjM2NDQ4MV5BMl5BanBnXkFtZTgwMzk3MTgyODE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
                    "https://www.youtube.com/watch?v=dLIy1K8kJPo")
 
-#construct a list of movies
-movies = [warcraft, warcraft, warcraft, dory, dory, dory]
+#construct a list of movies, here just use two movies for demonstration purposes
+movies = [warcraft, dory, warcraft, dory, warcraft, dory]
 
 #construct the page with data above
 fresh_tomatoes.open_movies_page(movies)
